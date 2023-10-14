@@ -1,5 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 .login-container {
-    width: 200px;
+    width: 300px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -11,13 +16,12 @@ h2 {
     text-align: center;
 }
 
-input {
+input, button {
     display: block;
     width: 100%;
-    border-radius: 4px;
     margin-bottom: 10px;
-    margin-right: 10px;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 button {
@@ -26,10 +30,6 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
 }
 
 button:hover {
